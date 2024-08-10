@@ -2,7 +2,7 @@
 
 document.getElementById('guess-button').addEventListener('click', function() {
     const number = Number(document.getElementById('guess-input').value);
-    const randomNumber = Math.ceil(Math.random() * 10);
+    const randomNumber = Math.ceil(Math.random() * 100);
 
     if (number === randomNumber) {
         document.getElementById('result').textContent = "You won!";
