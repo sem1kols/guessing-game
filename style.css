@@ -1,0 +1,42 @@
+/* style.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.prompt-container {
+    margin-bottom: 20px;
+}
+
+#prompt {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#guess-input {
+    font-size: 2em;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#guess-button {
+    font-size: 2em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
